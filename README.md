@@ -31,4 +31,5 @@ Challenge
 
 ![Screenshot (419)](https://github.com/odansyyy/modul3/assets/145110140/88e3a3f7-cbd7-45e0-b98c-61673db21dcd)
 
-![Screenshot (420)](https://github.com/odansyyy/modul3/assets/145110140/07d869a1-2925-46d2-b8f4-6f8e79b361ee)
+![Screenshot (421)](https://github.com/odansyyy/modul3/assets/145110140/23315638-fcd7-4dbe-8e3b-a1fa81d9a2e1)
+
