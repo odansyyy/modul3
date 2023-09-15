@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+Kesimpulan singkat tentang modul 3 :
+![Screenshot (415)](https://github.com/odansyyy/modul3/assets/145110140/f9a82a64-a456-4f32-b855-84535121d640)
+![Screenshot (416)](https://github.com/odansyyy/modul3/assets/145110140/bb7fe960-7c45-4ffa-af87-709d862513d8)
+![Screenshot (417)](https://github.com/odansyyy/modul3/assets/145110140/cd298e12-4fa4-45ff-9693-06d2efb18abd)
+![Screenshot (418)](https://github.com/odansyyy/modul3/assets/145110140/402d0eeb-9d5a-4287-b723-e0f3838bda4b)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Stateless components adalah komponen yang tidak memiliki state internal. Mereka hanya menerima props dan merender tampilan berdasarkan props tersebut. Stateless components cocok untuk bagian-bagian statis dari aplikasi .
+- Stateful components adalah komponen yang memiliki state internal yang dapat berubah seiring waktu. Mereka dapat melakukan perubahan pada state mereka dan kemudian merender ulang berdasarkan perubahan tersebut. Stateful components cocok untuk bagian-bagian yang memerlukan logika dinamis.
 
-## Available Scripts
+ Dynamic Component
+Dynamic components menggunakan props untuk menerima data atau konfigurasi yang memungkinkan mereka merender konten yang berbeda. Ini membuat komponen tersebut lebih fleksibel dan dapat digunakan kembali dengan berbagai data.
 
-In the project directory, you can run:
 
-### `npm start`
+ Update Parent oleh Child Component
+Child components dapat mengirim informasi atau perubahan ke parent components mereka melalui callback functions yang diteruskan sebagai props. Hal ini memungkinkan komunikasi antara komponen dalam aplikasi Anda dan memungkinkan parent components untuk merespons perubahan yang terjadi di child components.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Kegunaan Lifecycle Component (Mounting, Updating, Unmounting)
+- Mounting Lifecycle Methods: Metode mounting digunakan ketika sebuah komponen pertama kali dimount di DOM. `constructor`, `componentDidMount`, dan `render` adalah contoh metode-mounting.
+- Updating Lifecycle Methods: Metode updating digunakan ketika komponen menerima perubahan props atau state dan memutuskan apakah harus merender ulang. `componentDidUpdate` dan `shouldComponentUpdate` adalah contoh metode-updating.
+- Unmounting Lifecycle Methods: Metode unmounting digunakan ketika komponen akan dihapus dari DOM. `componentWillUnmount` adalah contoh metode-unmounting. 
 
-### `npm test`
+Lifecycle methods memungkinkan untuk menambahkan logika tambahan ke dalam komponen Anda pada berbagai tahap dalam siklus hidup mereka, seperti inisialisasi, perubahan, dan penghapusan.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+mohon maaf untuk halaman login saya masih belum selesai
 
-### `npm run build`
+Challenge
+![Screenshot (413)](https://github.com/odansyyy/modul3/assets/145110140/5ab6ee6f-67b5-480c-b14c-170724c97b68)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot (414)](https://github.com/odansyyy/modul3/assets/145110140/4bf3e33e-5f8f-4875-87c5-12d32c8fc242)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
