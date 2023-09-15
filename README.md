@@ -22,10 +22,13 @@ Kegunaan Lifecycle Component (Mounting, Updating, Unmounting)
 
 Lifecycle methods memungkinkan untuk menambahkan logika tambahan ke dalam komponen Anda pada berbagai tahap dalam siklus hidup mereka, seperti inisialisasi, perubahan, dan penghapusan.
 
-mohon maaf untuk halaman login saya masih belum selesai
+mohon maaf bu untuk halaman login saya masih belum selesai
 
 Challenge
 ![Screenshot (413)](https://github.com/odansyyy/modul3/assets/145110140/5ab6ee6f-67b5-480c-b14c-170724c97b68)
 
 ![Screenshot (414)](https://github.com/odansyyy/modul3/assets/145110140/4bf3e33e-5f8f-4875-87c5-12d32c8fc242)
 
+![Screenshot (419)](https://github.com/odansyyy/modul3/assets/145110140/88e3a3f7-cbd7-45e0-b98c-61673db21dcd)
+
+![Screenshot (420)](https://github.com/odansyyy/modul3/assets/145110140/07d869a1-2925-46d2-b8f4-6f8e79b361ee)
